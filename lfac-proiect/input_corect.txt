@@ -1,0 +1,68 @@
+global()
+{
+    int x;
+    int x1;
+    int x2;
+    int y;
+    int arr[5]={};
+    float f=20.222;
+    float f1;
+    char c='s';
+    bool cond=true;
+}
+functions()
+{
+    function int  testFunction(int a,int b)
+    {
+        if_else(a>b)
+        {a=b;}
+        else
+        {b=a;};
+        return a;
+    };
+    function int test (int a,int param2,float f2)
+    {
+        param1=3;
+        return 3;
+    };
+   function void afis(int val)
+    {
+        print($val);
+    };
+}
+main()
+{
+    arr[1]=3;
+    x1=10;
+    cond=false;
+    while(x1!=1)
+    {
+        x1--;
+    };
+    int i;
+    for(i=1,i<3,i++)
+    {
+        print($i);
+    };
+    x=10;
+    x1=20;
+    x2=30;
+    y=8;
+    if_else(x1 + call test(~x1,~x2,~f)  < 5 + x1 && x > 2 || x1 < 4+x2 || x == 2)
+    {
+        x=2;
+        if_else(x1!=x)
+        {
+            x1=x2+2;
+        };
+    };
+ x = call test(x+5,~call test(~x1,3,~f), ~f) + 30 - y * arr[2] - 10;
+x1 = x*100 + 5 * 100 + arr[2];
+eval(x*10-100);
+eval(x1);
+eval(x2* 10-100);
+eval(x+ call test(~x1,~x,~f)) ;
+typeof(x+23);
+typeof(~f-30.0);
+    return;
+}

@@ -1,0 +1,29 @@
+global()
+{
+	int x = 23;
+}
+
+functions()
+{
+	function int testFunction(int x4, float z) 
+	{
+       x = 12;
+	   return 1;
+    };
+
+
+	function int test(int param) 
+	{
+		param = 2;
+		return 1;
+	};
+}
+
+main()
+{
+	x3 = x + 2;  
+    x3=call test(5)+x3;
+    call test(5);
+	return;
+}
+

@@ -1,0 +1,28 @@
+global();
+functions()
+{
+    function int test(int b,float c,int par3)
+    {
+        print("am intrat in functia test");
+        return b;
+    };
+    function int test1(int lal)
+    {
+        lal=3;
+        return lal;
+    };
+}
+main()
+{
+    float flt;
+    int a[2]={1,2};
+    int ggg;
+    a[1]=9;
+    ggg=2*a[2]+4+6;
+    if_else(1+4>45 && ggg<4 || (1+2>3))
+    {
+        print("lala");
+    };
+    call test(ggg+2*1,~flt,~call test1(~ggg));
+    return ;
+}

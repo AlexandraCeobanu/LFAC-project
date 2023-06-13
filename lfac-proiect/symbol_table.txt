@@ -1,0 +1,9 @@
+
+
+								 SYMBOL TABLE 
+
+
+ID   DATATYPE   TYPE   VALUE 
+_______________________________________
+
+x	int	VARIABILA GLOBALA	12

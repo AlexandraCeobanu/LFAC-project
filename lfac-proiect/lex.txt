@@ -1,0 +1,32 @@
+global()
+{
+    int GGG=12;
+
+}
+functions()
+{
+    function int funct1(int par1)
+    {
+        print("af");
+        return 2;
+    };
+    function int TEST(int pr1,int pr2,int pr3)
+    {
+        print("sls");
+        return 2;
+    };
+    function float FTEST (int a){
+        print("func2");
+        return 2.33;
+    };
+}
+main()
+{
+    int x=9;int y=10;bool da=false;
+    GGG=GGG+5*3+34-4 + call TEST(call TEST(1,2,3),2,3);
+    if(x+23<5 || y< 45 && 5>4 && (x+5 < 56 || x==2 && y+3< call TEST(2,3,4)) || x==2)
+    {
+        print("if");
+    };
+    return ;
+}

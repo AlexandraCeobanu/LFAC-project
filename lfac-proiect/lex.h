@@ -1,0 +1,46 @@
+#define PRINT 1;
+#define INT 2;
+#define BOOL 3;
+#define FLOAT 4;
+#define CHAR 5;
+#define STRING 6;
+#define DIM 7;
+#define FOR 8;
+#define ADUNARE 9;
+#define SCADERE 10;
+#define AND 11;
+#define OR 12;
+
+#define CONST 12;
+#define RETURN 12;
+#define WHILE 13;
+#define DO 14;
+#define IF 15;
+#define VOID 16;
+#define FUNCTION 17;
+#define NUMAR 18;
+#define NUMAR_REAL 19;
+#define ID 20;
+#define SIR_CAR 21;
+#define CARACTER 22;
+
+#define INMULTIRE 23;
+#define IMPARTIRE 24;
+#define DIV 25;
+#define MODULO 26;
+#define ADUNARE_ATR 27;
+#define SCADERE_ATR 28;
+#define DIV_ATR 29;
+#define MOD_ATR 30;
+#define INCREMENTARE 31;
+#define DECREMENTARE 32;
+#define NOT 33;
+#define EGALITATE 34;
+
+#define LT 35;
+#define GT 36;
+#define ATR 37;
+#define LE 38;
+#define GE 39;
+#define ELSE 40;
+#define INMULTIRE_ATR 41;

@@ -1,0 +1,13 @@
+
+
+								 SYMBOL TABLE 
+
+
+ID   DATATYPE   TYPE   
+_______________________________________
+
+testFunction	int	FUNCTIE	
+x4	int	PARAMETRUL FUNCTIEI testFunction	
+z	float	PARAMETRUL FUNCTIEI testFunction	
+test	int	FUNCTIE	
+param	int	PARAMETRUL FUNCTIEI test	
