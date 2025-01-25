@@ -1,2 +1,2 @@
-# LFAC-proiect
-Proiect realizat in cadrul disciplinei LFAC
+# LFAC-project
+Design an original programming language using YACC.
